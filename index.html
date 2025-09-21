@@ -1,0 +1,323 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Rick — Treinos & Planejamento Prático</title>
+  <meta name="description" content="Treinos e planejamento alimentar prático por técnico em nutrição e atleta de musculação. Horários domingo a domingo. Preço acessível. Agende online." />
+  <style>
+    /* ---------- Reset / base ---------- */
+    :root{
+      --accent:#0d6efd;
+      --bg:#fafafa;
+      --card:#ffffff;
+      --muted:#666;
+      font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+      color:#111;
+    }
+    *{box-sizing:border-box}
+    body{margin:0;background:var(--bg);line-height:1.45}
+    .container{max-width:1100px;margin:0 auto;padding:20px}
+    header{background:linear-gradient(90deg,#0d6efd 0%,#0069d9 100%);color:#fff;padding:36px 20px;border-bottom-left-radius:12px;border-bottom-right-radius:12px}
+    header .top{display:flex;align-items:center;gap:16px}
+    header h1{margin:0;font-size:26px}
+    header p{margin:6px 0 0;color:rgba(255,255,255,0.95)}
+    .cta{background:#fff;color:var(--accent);padding:10px 14px;border-radius:8px;text-decoration:none;font-weight:700}
+    main{margin-top:24px}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px}
+    .card{background:var(--card);padding:18px;border-radius:10px;box-shadow:0 2px 8px rgba(10,10,10,0.04);border:1px solid rgba(0,0,0,0.03)}
+    h2{margin:0 0 8px;font-size:20px}
+    h3{margin:0 0 8px;font-size:18px}
+    p.small{color:var(--muted);margin:0 0 12px;font-size:14px}
+    label{display:block;font-weight:600;margin:10px 0 6px;font-size:14px}
+    input,select,textarea{width:100%;padding:10px;border:1px solid #ddd;border-radius:8px;font-size:15px}
+    textarea{min-height:90px;resize:vertical}
+    .btn{background:var(--accent);color:#fff;border:none;padding:10px 14px;border-radius:8px;font-weight:700;cursor:pointer}
+    .muted{color:var(--muted);font-size:13px}
+    .flex{display:flex;gap:12px;align-items:center}
+    .pill{display:inline-block;padding:6px 10px;border-radius:999px;background:#f0f6ff;color:var(--accent);font-weight:700}
+    footer{margin-top:28px;padding:18px 8px;color:var(--muted);font-size:13px}
+    a.link{color:var(--accent);text-decoration:none}
+    .disclaimer{font-size:13px;color:#333;background:#fff8f0;padding:12px;border-left:4px solid #ffb86b;border-radius:6px}
+    /* responsive */
+    @media(min-width:900px){
+      header h1{font-size:32px}
+    }
+
+    /* small helpers */
+    .center{text-align:center}
+    .nice-list{padding-left:18px;margin:6px 0}
+    .hidden{display:none}
+    .row{display:flex;gap:12px;flex-wrap:wrap}
+    .w50{flex:1 1 48%}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="top">
+        <div style="flex:1">
+          <span class="pill">Rick — Treinos & Planejamento</span>
+          <h1>Transforme seu corpo com orientação prática e preço justo</h1>
+          <p>Sou técnico em nutrição e atleta de musculação com anos de prática. Ofereço planejamento alimentar prático e acompanhamento de treino — domingo a domingo, horários flexíveis.</p>
+        </div>
+        <div style="display:flex;align-items:center;gap:10px">
+          <a class="cta" href="#agendamento">Agendar agora</a>
+          <a class="cta" href="#contato" style="background:rgba(255,255,255,0.15);color:#fff">Contato</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- Sobre / serviço -->
+    <section style="margin-top:18px" class="grid">
+      <div class="card">
+        <h2>O que eu faço</h2>
+        <p class="small">Planejo refeições práticas e rotinas de musculação adaptadas ao seu objetivo — perda de peso, ganho de massa ou manutenção. Não sou nutricionista nem personal trainer licenciado; trabalho com conhecimento técnico e experiência prática a preço acessível. Você executa os exercícios e eu oriento — sempre respeitando as normas da academia.</p>
+
+        <h3>Serviços</h3>
+        <ul class="nice-list">
+          <li><strong>Plano Básico</strong> — orientação alimentar prática + checklist semanal (digital).</li>
+          <li><strong>Treino + Alimentação</strong> — plano alimentar estimado + rotina de musculação com sugestões de cargas.</li>
+          <li><strong>Acompanhamento Presencial</strong> — orientação na academia: eu monto as cargas e acompanho; você executa os movimentos.</li>
+        </ul>
+
+        <p class="muted">Observação: não faço diagnóstico clínico nem prescrição médica. Recomendo profissional habilitado quando necessário.</p>
+      </div>
+
+      <div class="card">
+        <h2>Por que escolher</h2>
+        <div style="margin-top:8px" class="nice-list">
+          <li>Experiência real de quem vive a musculação</li>
+          <li>Preços abaixo do mercado de personal/nutri</li>
+          <li>Horários flexíveis: domingo a domingo</li>
+          <li>Atendimento prático e direto, foco em resultados</li>
+        </div>
+
+        <div style="margin-top:12px">
+          <h3>Depoimentos</h3>
+          <p class="muted">Ainda sem depoimentos (adicione depois). Quando tiver resultados, destaque 2–3 antes/depois com autorização.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Agendamento -->
+    <section id="agendamento" style="margin-top:22px">
+      <div class="grid">
+        <div class="card">
+          <h2>Agende pelo calendário (rápido)</h2>
+          <p class="small">Se prefere marcar direto e receber confirmação automática, use o calendário abaixo. (Recomendado: Calendly gratuito — crie eventos e cole o embed.)</p>
+
+          <!-- Calendly embed: substitua pelo seu widget -->
+          <div id="calendly-embed" style="min-height:420px;padding:8px;border-radius:8px;border:1px dashed #eee;background:#fff">
+            <!-- Cole aqui o iframe do Calendly.
+                 Exemplo (substitua pelo seu):
+                 <iframe src="https://calendly.com/seu-usuario/seu-evento?embed_domain=seusite.com&embed_type=Inline" style="width:100%;height:600px;border:0;"></iframe>
+            -->
+            <div class="muted center">Coloque seu Calendly embed aqui (substitua o conteúdo).<br/><br/>Se quiser, eu já faço o embed pra você — me passe o link do evento Calendly.</div>
+          </div>
+
+          <p class="small" style="margin-top:8px">Vantagem: confirmação automática e sincronização com Google Calendar. Desvantagem: precisa criar o evento no Calendly.</p>
+        </div>
+
+        <div class="card">
+          <h2>Agende via formulário (envio por e-mail)</h2>
+          <p class="small">Opção sem calendário automático. O formulário envia para seu e-mail (Formspree / Netlify Forms). Eu recebo a solicitação e confirmo manualmente por WhatsApp/e-mail.</p>
+
+          <form id="bookingForm" action="https://formspree.io/f/YOUR_FORMSPREE_ENDPOINT" method="POST" onsubmit="submitted=true">
+            <label for="nome">Nome completo</label>
+            <input id="nome" name="nome" required />
+
+            <div class="row" style="margin-top:6px">
+              <div class="w50">
+                <label for="email">E-mail</label>
+                <input id="email" name="email" type="email" required />
+              </div>
+              <div class="w50">
+                <label for="telefone">Telefone / WhatsApp</label>
+                <input id="telefone" name="telefone" required />
+              </div>
+            </div>
+
+            <div class="row" style="margin-top:6px">
+              <div class="w50">
+                <label for="sexo">Sexo</label>
+                <select id="sexo" name="sexo">
+                  <option value="Masculino">Masculino</option>
+                  <option value="Feminino">Feminino</option>
+                  <option value="Outro">Outro</option>
+                </select>
+              </div>
+              <div class="w50">
+                <label for="idade">Idade</label>
+                <input id="idade" name="idade" type="number" min="14" max="100" required />
+              </div>
+            </div>
+
+            <div class="row" style="margin-top:6px">
+              <div class="w50">
+                <label for="altura">Altura (cm)</label>
+                <input id="altura" name="altura" type="number" min="100" max="250" required />
+              </div>
+              <div class="w50">
+                <label for="peso">Peso (kg)</label>
+                <input id="peso" name="peso" type="number" min="30" max="250" required />
+              </div>
+            </div>
+
+            <label for="objetivo" style="margin-top:8px">Objetivo</label>
+            <select id="objetivo" name="objetivo">
+              <option>Perda de peso</option>
+              <option>Ganho de massa</option>
+              <option>Manutenção</option>
+              <option>Condicionamento</option>
+              <option>Outro</option>
+            </select>
+
+            <label style="margin-top:8px">Escolha 2 opções de horário (manhã/tarde/noite) — eu confirmo a disponibilidade</label>
+            <div style="display:grid;grid-template-columns:repeat(2,1fr);gap:8px">
+              <select name="horario1" required>
+                <option value="">Selecione preferência 1</option>
+                <option>06:00–07:00</option>
+                <option>07:00–08:00</option>
+                <option>08:00–09:00</option>
+                <option>12:00–13:00</option>
+                <option>17:00–18:00</option>
+                <option>18:00–19:00</option>
+                <option>19:00–20:00</option>
+              </select>
+
+              <select name="horario2" required>
+                <option value="">Selecione preferência 2</option>
+                <option>06:00–07:00</option>
+                <option>07:00–08:00</option>
+                <option>08:00–09:00</option>
+                <option>12:00–13:00</option>
+                <option>17:00–18:00</option>
+                <option>18:00–19:00</option>
+                <option>19:00–20:00</option>
+              </select>
+            </div>
+
+            <label style="margin-top:8px" for="servico">Serviço desejado</label>
+            <select id="servico" name="servico">
+              <option>Plano Básico</option>
+              <option>Treino + Alimentação</option>
+              <option>Acompanhamento Presencial</option>
+            </select>
+
+            <label style="margin-top:8px" for="observacoes">Observações / restrições (saúde, lesões etc.)</label>
+            <textarea id="observacoes" name="observacoes"></textarea>
+
+            <label style="margin-top:8px" class="muted"><input type="checkbox" id="consent" name="consent" required /> Li e concordo com o aviso legal (não substitui profissional habilitado).</label>
+
+            <div style="margin-top:12px">
+              <button class="btn" type="submit">Enviar pedido de agendamento</button>
+            </div>
+
+            <input type="hidden" name="_subject" value="Novo agendamento - site Rick">
+            <input type="hidden" name="_language" value="pt-BR">
+            <!-- Se usar Formspree: adicionar _replyto para resposta automática -->
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Preços -->
+    <section style="margin-top:18px" class="grid">
+      <div class="card">
+        <h2>Planos e preços (exemplo)</h2>
+        <p class="muted">Coloque valores reais depois — aqui estão sugestões para a página inicial.</p>
+        <ul class="nice-list">
+          <li><strong>Plano Básico</strong> — R$ 80 / semana (orientação prática + checklist)</li>
+          <li><strong>Treino + Alimentação</strong> — R$ 220 / mês (plano completo, ajustes semanais)</li>
+          <li><strong>Sessão Presencial</strong> — R$ 45 / sessão (orientação na academia: montagem de cargas e acompanhamento; cliente executa os movimentos)</li>
+        </ul>
+        <p class="muted">Ajuste conforme sua decisão. Ofereça desconto para pacotes mensais.</p>
+      </div>
+
+      <div class="card">
+        <h2>Dicas rápidas</h2>
+        <div class="nice-list">
+          <li>Proteína em todas refeições principais ajuda recuperação.</li>
+          <li>Aumente carga quando completar repetições com facilidade (2–5%).</li>
+          <li>Consistência vence “atalhos”.</li>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ e disclaimer -->
+    <section style="margin-top:18px" class="grid">
+      <div class="card">
+        <h2>FAQ</h2>
+        <p class="muted"><strong>Você é personal trainer ou nutricionista?</strong><br/>Não. Sou técnico em nutrição e praticante de musculação com experiência. Não faço avaliação clínica nem prescrição médica. Minhas orientações têm caráter prático e educativo.</p>
+
+        <p class="muted"><strong>Como é o acompanhamento presencial?</strong><br/>Eu monto as cargas e acompanho — você executa os exercícios. Respeitamos regras da academia sobre atuação de não-formados em educação física.</p>
+
+        <p class="muted"><strong>Formas de pagamento</strong><br/>PIX, transferência ou link de pagamento (Mercado Pago / PagSeguro). Posso enviar link quando o agendamento for confirmado.</p>
+      </div>
+
+      <div class="card">
+        <h2>Aviso legal (leia com atenção)</h2>
+        <div class="disclaimer">
+          <strong>Aviso:</strong> As orientações aqui oferecidas são de caráter prático e educativo. Rick não é nutricionista registrado nem profissional de Educação Física habilitado — portanto não realiza diagnóstico clínico, prescrição nutricional formal nem atua como personal trainer licenciado. O acompanhamento presencial consiste em orientação e apoio técnico baseado em experiência própria. O cliente declara estar apto para a prática de exercícios e assume responsabilidade pela execução. Em caso de condições médicas, procure profissional habilitado.
+        </div>
+      </div>
+    </section>
+
+    <!-- Contato / rodapé -->
+    <section id="contato" style="margin-top:18px">
+      <div class="card">
+        <h2>Contato</h2>
+        <p class="muted">Prefere WhatsApp? Clique no link abaixo para enviar mensagem rápida.</p>
+        <p><a class="link" href="https://wa.me/YOUR_WHATSAPP_NUMBER?text=Ol%C3%A1%20Rick%2C%20gostaria%20de%20agendar%20uma%20sess%C3%A3o" target="_blank">Enviar mensagem por WhatsApp</a></p>
+
+        <p class="muted" style="margin-top:12px">E-mail: <a class="link" href="mailto:seuemail@example.com">seuemail@example.com</a></p>
+
+        <p style="margin-top:12px" class="muted">Quer que eu suba isso pra você? Posso gerar os arquivos finais, textos otimizados e instrução passo a passo pra publicar gratuitamente (Netlify/ GitHub Pages).</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div style="display:flex;align-items:center;gap:12px;flex-wrap:wrap">
+        <div>
+          <strong>Rick — Treinos & Planejamento</strong><br/>
+          Técnico em Nutrição • Atleta de Musculação • Horários: Domingo a Domingo
+        </div>
+        <div style="margin-left:auto;text-align:right">
+          <div class="muted">E-mail: seuemail@example.com</div>
+          <div class="muted">WhatsApp: <a class="link" href="https://wa.me/YOUR_WHATSAPP_NUMBER">Abrir chat</a></div>
+        </div>
+      </div>
+
+      <p style="margin-top:12px" class="muted">© <span id="year"></span> Rick. Todas as orientações têm caráter informativo. Ao agendar, o cliente confirma ter lido o aviso legal.</p>
+    </div>
+  </footer>
+
+  <script>
+    // inserir ano
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Pequeno aviso ao enviar formulário
+    let submitted = false;
+    document.getElementById('bookingForm').addEventListener('submit', function(e){
+      // permitir envio normal; mostrar alerta informativo
+      setTimeout(function(){
+        alert('Pedido enviado. Você receberá confirmação por e-mail/WhatsApp em até 24h.');
+      }, 200);
+    });
+
+    // Pequena função para inserir Calendly embed dinamicamente (caso queira)
+    // Substitua 'YOUR_CALENDLY_EMBED' pelo iframe completo do Calendly
+    (function insertCalendly(){
+      const container = document.getElementById('calendly-embed');
+      // se você já tiver o iframe, cole aqui manualmente
+      // ex:
+      // container.innerHTML = '<iframe src="https://calendly.com/seu-usuario/seu-evento?embed_domain=seusite.com&embed_type=Inline" style="width:100%;height:700px;border:0;"></iframe>';
+    })();
+  </script>
+</body>
+</html>
